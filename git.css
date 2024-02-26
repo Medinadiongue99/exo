@@ -1,0 +1,162 @@
+body{
+	background-color: gray;
+	font-family: sans-serif;
+}
+.body1{
+	background-image: linear-gradient(to left, #6aa84f,green 10%);
+}
+.flex2{
+	display: flex;
+	gap: 20px;
+	
+}
+.div1{
+	width: 800px;
+	margin: 0 auto;
+}
+.field{
+	margin-top: 25px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.img1{
+	width: 120px;
+	height: 150px;
+	margin:10px 0px 0px 185px ;
+}
+#inscri{
+	background-color:#99ee05;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+.iscription img{
+	transform: translate(-155px, 0px);
+	width: 45px ;
+	height: 50px;
+}
+.in{
+	background-color:#f3f3f3;
+	color:grey;
+	padding-left: 15px;
+	width: 230px;
+	height: 45px;
+}
+.iscription{
+	width: 400px;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: #c3f36e;
+	text-align: center;
+	height: 48px;
+	margin: 20px 0px 15px 40px;
+}
+#inscr1{
+	width: 800px;
+	height: 55px;
+	margin: 30px 0px 0px 0px;
+}
+#inscr1 h1{
+	transform: translateY(-10px);
+}
+.buttone {
+	width: 140px;
+	text-align: center;
+	height: 25px;
+	border-radius: 30px;
+	padding-top: 5px;
+	margin: 20px 0px 20px 30px;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+#buton{
+	width: 250px;
+	margin-left: 500px;
+	color: white;
+	height: 30px;
+	text-transform: uppercase;
+
+}
+.flex div:nth-child(3) a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.label1{
+	padding-left: 55px;
+}
+.iscription h2{
+	opacity: 0.6;
+	transform: translateY(-65px);
+}
+  .flex1 input, select,label{
+  	margin: 10px 0px 15px 0px;
+}
+
+.flex1 input,select{
+	width: 215px;
+	border: 1px solid black;
+}
+.login{
+	margin:0 auto ;
+	width: 40%;
+	margin-top: 70px;
+	row-gap: 10px;
+	background-color: white;
+
+}
+.in{
+
+
+}
+.vert{
+	width: 100%;
+	height: 110px;
+	background: green;
+	opacity: 0.7;
+}
+.flex, .flex1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+input{
+	border: none;
+
+}
+.titre_log{
+	text-align: center;
+}
+a[href="formulaire_pique.html"]{
+	color: white;
+	background-color: green;
+	opacity: 0.7;
+	padding-top: 15px;
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+
+}
+.para{
+	color: grey;
+font-size: 14px;
+}
+
+
+a[href="formulaire_inscription.html"]{
+	color: green;
+	opacity: 0.5;
+	text-decoration: none;
+}
+.flexr{
+	display: grid;
+	grid-template-columns: 150px 200px 200px 200px;
+	grid-template-rows: 40px;
+	padding: 10px 0px 0px 10px;
+	gap: 5px;
+}
+.flexr span{
+	padding-top: 10px;
+}
+legend, label{ font-weight:bold; }
